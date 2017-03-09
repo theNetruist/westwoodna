@@ -1,0 +1,17 @@
+{
+  "name": "WestwoodNA",
+  "authors": [
+    "Andrew Long <drew@westwoodna.com>"
+  ],
+  "description": "A website for the Westwood Neighbors Association.",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "westwoodna.com/index",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
