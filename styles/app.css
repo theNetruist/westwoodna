@@ -1,0 +1,24 @@
+body {
+    background-image: url(../resources/bg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.i_logo {
+    height: 60%;
+}
+
+.i_header_container {
+    text-align: center;
+}
+
+.i_content {
+    text-align: center;
+}
+
+.i_content h1{
+    font-family: Great Vibes;
+    font-size: 64px;
+}
