@@ -25,4 +25,4 @@
             controller: 'membershipController as _self'
         });
     }]);
-})()
+})();
