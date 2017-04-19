@@ -1,6 +1,7 @@
 (function () {
     angular.module('westwoodna', [
         'ui.router',
+        'ngAnimate',
         'events.controller',
         'home.controller',
         'about.controller',

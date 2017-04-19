@@ -1,13 +1,24 @@
 body {
-    background-image: url(../resources/bg.jpg);
+    background-image: url(../resources/WWNA.PNG);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+.main-content {
+    background-image: url(../resources/bg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 1080px;
+    margin: auto;
+}
+
 .i_logo {
     height: 60%;
+    max-height: 300px;
 }
 
 .i_header_container {
@@ -19,6 +30,36 @@ body {
 }
 
 .i_content h1{
-    font-family: Great Vibes;
-    font-size: 64px;
+    font-family: 'Courgette', cursive;
+    font-size: 48px;
+}
+
+.a_content{
+    padding: 0 8%;
+}
+
+.a_content p{
+    font-size: 24px;
+}
+
+.content_links {
+    display: inline-block;
+    list-style: none;
+}
+
+.content_links li {
+    display: inline;
+    padding: 40px;
+    font-family: 'Courgette', cursive;
+    font-size: 28px;
+}
+
+.nav{
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
 }
