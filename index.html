@@ -1,22 +1,28 @@
 <html>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Great Vibes">
-  <link rel="stylesheet" href="./styles/app.css">
-  <script src="./bower_components/angular/angular.js"></script>
-  <script src="./app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/app.css">
+    <script src="./bower_components/angular/angular.js"></script>
+    <script src="./bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="./bower_components/angular-animate/angular-animate.js"></script>
+    <script src="./app.js"></script>
+    <script src="./controllers/events.controller.js"></script>
+    <script src="./controllers/home.controller.js"></script>
+    <script src="./controllers/about.controller.js"></script>
+    <script src="./controllers/membership.controller.js"></script>
 </head>
 
 <body ng-app="westwoodna">
-  <div ng-controller="indexController">
-    <div class="i_header_container">
-      <img src="./resources/WWN2.png" class="i_logo" />
+    <div class="main-content">
+        <div class="i_header_container">
+            <a ui-sref="home"><img src="./resources/WWN2.png" class="i_logo fade" /></a>
+        </div>
+        <ui-view></ui-view>
+        <div class="footer">
+            &copy; 2017 Westwood Neighbors Association. All rights reserved.
+        </div>
     </div>
-    <div class="i_content">
-      <h1>This Page is Coming Soon</h1>
-      <p>To reach us in the meantime, please feel free to email us at <a href="mailto:admin@westwoodna.com">admin@westoodna.com</a></p>
-    </div>
-  </div>
 </body>
 
 </html>
